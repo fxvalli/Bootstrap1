@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Palmeiras</title>
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link do Font Awesome para ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/java.js">
+</head>
+<body>
+
+    <!-- Cabeçalho com Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo à esquerda -->
+            <a class="navbar-brand" href="#">
+                <img src="/img/palmeiras-removebg-preview.png" alt="Logo do Palmeiras">
+            </a>
+            
+            <!-- Itens de navegação centralizados -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre" onclick="scrollToSection('sobre')">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria" onclick="scrollToSection('galeria')">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" onclick="scrollToSection('contato')">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Orgulho e Tradição</h1>
+    </section>
+
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="container py-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>Sobre o Palmeiras</h2>
+                <p>O Palmeiras é um dos maiores clubes de futebol do Brasil, com uma história rica e cheia de títulos!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/img/images (2).jpg" class="card-img-top" alt="Palmeiras">
+                        <div class="card-body">
+                            <h5 class="card-title">História</h5>
+                            <p class="card-text">Fundado em 1914, o Palmeiras é um dos clubes mais vitoriosos do Brasil, com múltiplos títulos nacionais e internacionais, e grande rivalidade com o Corinthians. Sua torcida é uma das maiores e mais apaixonadas do país.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/img/allianz.jpg" class="card-img-top" alt="Allianz Parque">
+                        <div class="card-body">
+                            <h5 class="card-title">Allianz Parque</h5>
+                            <p class="card-text">naugurado em 2014, o Allianz Parque é o moderno estádio do Palmeiras, localizado em São Paulo, com capacidade para 43.000 pessoas e infraestrutura de ponta, é também o estado mais moderno do país!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/img/download.jpg" class="card-img-top" alt="Libertadores">
+                        <div class="card-body">
+                            <h5 class="card-title">Libertadores</h5>
+                            <p class="card-text">O Palmeiras conquistou a Libertadores três vezes: em 1999, com uma campanha histórica,em 2020, vencendo o Santos na final, e também no ano de 2021, conquistando o tricampeonato e se consolidou como uma das maiores potências do torneio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Seção de Ídolos -->
+<section id="idolos" class="text-white py-5" style="background-color: #003d33;">
+    <div class="container">
+        <h2 class="text-center mb-4">Ídolos do Palmeiras</h2>
+        <div class="row">
+            <!-- Ídolo 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-light">
+                    <img src="/img/ademir.jpg" class="card-img-top" alt="Ademir" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ademir da Guia</h5>
+                        <p class="card-text">Ademir da Guia, o "Divino", foi um dos maiores ídolos da história do Palmeiras e do futebol brasileiro. Nascido em 1942, ele se destacou como um meio-campista técnico e inteligente, sendo conhecido por sua habilidade, visão de jogo e liderança dentro de campo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ídolo 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-light">
+                    <img src="/img/saomarcos.jpg" class="card-img-top" alt="Marcos" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Marcos</h5>
+                        <p class="card-text">Marcos, o goleiro da Libertadores de 1999, é um dos maiores heróis da história do Palmeiras. Ícone da garra e da lealdade, é admirado por sua defesa histórica e por sua identificação com o clube.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ídolo 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-light">
+                    <img src="/img/dudu 7⃣.jpg"" class="card-img-top" alt="Dudu" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dudu</h5>
+                        <p class="card-text">Ele chegou ao Palmeiras em 2015, inicialmente emprestado, e rapidamente se tornou peça-chave do time. Com sua agilidade e visão de jogo, Dudu ajudou o clube a conquistar títulos importantes, como a Copa do Brasil (2015, 2020), o Campeonato Brasileiro (2016, 2018) e a Copa Libertadores (2020).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Títulos Importantes do Palmeiras</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Seção para o carrossel -->
+<section id="carrossel-titulos" class="my-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Títulos Mais Importantes do Palmeiras</h2>
+        
+        <!-- Início do Carrossel -->
+        <div id="carouselTítulos" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 - Libertadores 1999 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/libertaodres 1999.jpg" class="card-img-top" alt="Título">
+                            <div class="card-body">
+                                <h5 class="card-title">Copa Libertadores</h5>
+                                <p class="card-text">Ano: 1999</p>
+                                <p class="card-text"><small class="text-muted">Primeira conquista da Libertadores do Palmeiras.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 - Copa do Mundo de Clubes 1951 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/Palmeiras-campeao-mundial-1.jpg" class="card-img-top" alt="Título">
+                            <div class="card-body">
+                                <h5 class="card-title">Copa do Mundo de Clubes</h5>
+                                <p class="card-text">Ano: 1951</p>
+                                <p class="card-text"><small class="text-muted">Primeiro clube brasileiro a conquistar o título.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 - Copa do Brasil 2015 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/cdb 2025.jpg" class="card-img-top" alt="Título">
+                            <div class="card-body">
+                                <h5 class="card-title">Copa do Brasil</h5>
+                                <p class="card-text">Ano: 2015</p>
+                                <p class="card-text"><small class="text-muted">Título importante que selou uma era de conquistas.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 - Campeonato Brasileiro 2018 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/brasileiro 2028.jpg" class="card-img-top" alt="Título">
+                            <div class="card-body">
+                                <h5 class="card-title">Campeonato Brasileiro</h5>
+                                <p class="card-text">Ano: 2018</p>
+                                <p class="card-text"><small class="text-muted">Uma das conquistas mais recentes da era moderna.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 - Copa Libertadores 2020 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/liberta 2020.jpg" class="card-img-top" alt="Título">
+                            <div class="card-body">
+                                <h5 class="card-title">Copa Libertadores</h5>
+                                <p class="card-text">Ano: 2020</p>
+                                <p class="card-text"><small class="text-muted">Conquista histórica contra o Santos no Maracanã.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 6 - Copa do Brasil 1998 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/cdb 1998.jpg" class="card-img-top" alt="Título">
+                            <div class="card-body">
+                                <h5 class="card-title">Copa do Brasil</h5>
+                                <p class="card-text">Ano: 1998</p>
+                                <p class="card-text"><small class="text-muted">Primeiro título de Copa do Brasil do clube.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Título">
+                        <div class="card-body">
+                            <h5 class="card-title">Brasileirão 2023</h5>
+                            <p class="card-text">Ano: 2023</p>
+                            <p class="card-text"><small class="text-muted">Conquista histórica do Verdão com uma virada historica em cima do Botafogo, palmieras conquistou o campeonato com 70 pontos.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Título">
+                        <div class="card-body">
+                            <h5 class="card-title">Copa Libertadores</h5>
+                            <p class="card-text">Ano: 2021</p>
+                            <p class="card-text"><small class="text-muted">Conquista histórica contra o Santos no Maracanã.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Título">
+                        <div class="card-body">
+                            <h5 class="card-title">Campeonato Paulista de 2022</h5>
+                            <p class="card-text">Ano: 2022</p>
+                            <p class="card-text"><small class="text-muted">Conquista histórica contra o Santos no Maracanã.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles do Carrossel -->
+            <a class="carousel-control-prev" href="#carouselTítulos" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselTítulos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <!-- Fim do Carrossel -->
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+    <!-- Seção de Contato -->
+<section id="contato" class="container py-5">
+    <h2 class="text-center mb-4">Entre em Contato</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form id="contactForm" action="#" method="POST">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success w-100" id="submitBtn">Enviar</button>
+            </form>
+            <div id="successMessage" class="alert alert-success mt-3 d-none">
+                Sua mensagem foi enviada com sucesso! Em breve entraremos em contato.
+            </div>
+            <div id="errorMessage" class="alert alert-danger mt-3 d-none">
+                Ocorreu um erro ao enviar a sua mensagem. Tente novamente mais tarde.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <p>&copy; 2024 Palmeiras. Todos os direitos reservados.</p>
+        <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a>
+    </footer>
+
+    <!-- Scripts do Bootstrap e interatividade -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link para o arquivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>
